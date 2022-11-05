@@ -1,0 +1,9 @@
+# 開発用ファイル
+node_modules/
+*.js.map
+
+# パッケージ
+*.xdx
+
+# Webpack Export
+main.js

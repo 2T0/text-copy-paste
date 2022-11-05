@@ -1,0 +1,29 @@
+{
+  "id": "337c4196",
+  "name": "Text Copy Paste",
+  "host": [
+    {
+      "app": "XD",
+      "minVersion": "55.0.12.9"
+    }
+  ],
+  "version": "1.0.0",
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icon@1x.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon@2x.png"
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "panelId": "mainPanel"
+    }
+  ]
+}

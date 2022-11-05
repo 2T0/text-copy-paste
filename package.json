@@ -1,0 +1,34 @@
+{
+  "main": "main.js",
+  "scripts": {
+    "watch": "nodemon -w src -e js,jsx,css -w webpack.config.js -x npm run build ",
+    "build": "webpack --mode development"
+  },
+  "private": true,
+  "devDependencies": {
+    "nodemon": "^1.18.7",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "@spectrum-css/actionbutton": "^3.0.0",
+    "@spectrum-css/button": "^6.0.13",
+    "@spectrum-css/buttongroup": "^6.0.1",
+    "@spectrum-css/divider": "^2.0.1",
+    "@spectrum-css/fieldgroup": "^3.1.4",
+    "@spectrum-css/icon": "^3.0.23",
+    "@spectrum-css/page": "^5.0.11",
+    "@spectrum-css/textfield": "^3.2.4",
+    "@spectrum-css/typography": "^4.0.20",
+    "@spectrum-css/vars": "^8.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "reset-css": "^5.0.1",
+    "style-loader": "^0.22.0",
+    "yarn": "^1.12.3"
+  }
+}
